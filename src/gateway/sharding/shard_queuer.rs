@@ -31,7 +31,7 @@ use crate::internal::prelude::*;
 use crate::internal::tokio::spawn_named;
 use crate::model::gateway::{GatewayIntents, ShardInfo};
 
-const WAIT_BETWEEN_BOOTS_IN_SECONDS: u64 = 5;
+const WAIT_BETWEEN_BOOTS_IN_SECONDS: u64 = 1;
 
 /// The shard queuer is a simple loop that runs indefinitely to manage the startup of shards.
 ///
